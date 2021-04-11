@@ -1,0 +1,36 @@
+// nested For loop
+
+#include<stdio.h>
+
+int main()
+{
+    int i , j;
+    
+    // nested forloop
+    for(i=0; i<=2; i++)
+    {// i =0 , 1 ,2,
+       for(j=0; j<=5; j++)
+
+        {
+        printf("%d",j);
+    }
+   printf("\n");
+    }
+
+
+// nested while loop
+    i=0;
+    while(i<=2)
+        {
+        j=0;
+        while(j<=5)
+            {
+    printf("%d",j);
+            j++;
+        }
+        printf("\n");
+    i++;
+}
+
+ return 0;
+}
