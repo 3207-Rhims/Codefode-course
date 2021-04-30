@@ -1,0 +1,16 @@
+#include<stdio.h>
+int main(){
+    int a = 5; // intialize
+    
+    while(a<15){
+        printf("%d",a);
+        a= a+1; 
+    
+    if ( a > 10)
+    {
+        break;
+    }
+    }
+    
+    
+}
