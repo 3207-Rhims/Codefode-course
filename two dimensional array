@@ -1,0 +1,26 @@
+/array
+
+#include<stdio.h>
+
+int main()
+
+{
+    int i=0,j=0;
+    //data_type_arrayname[rows][column];
+    int twodmn[4][3]= {{1,2,3},{3,5,6},{5,6,7},{6,7,8}};
+    for(i=0;i<4;i++)
+
+    {
+       for(j=0;j<3;j++){
+            printf("twodmn[%d][%d]=%d\n",i,j,twodmn[i][j]);
+
+       }
+    }
+    
+    //home work : you have to code and taking input from user and have to transpose.
+    //visit nhspc.net and see the problem. 
+
+
+return 0;
+
+}
